@@ -362,6 +362,9 @@ void SCR_DrawScreenField( stereoFrame_t stereoFrame ) {
 
 	// wide aspect ratio screens need to have the sides cleared
 	// unless they are displaying game renderings
+	// Fix as per Adnan F. Zafar - thanks! 
+	// https://sourceforge.net/p/jediacademy/discussion/general/thread/17521f69/
+	/*
 	if ( cls.state != CA_ACTIVE ) {
 		if ( cls.glconfig.vidWidth * 480 > cls.glconfig.vidHeight * 640 ) {
 			re.SetColor( g_color_table[0] );
@@ -369,6 +372,7 @@ void SCR_DrawScreenField( stereoFrame_t stereoFrame ) {
 			re.SetColor( NULL );
 		}
 	}
+	*/
 
 	// if the menu is going to cover the entire screen, we
 	// don't need to render anything under it
