@@ -351,6 +351,7 @@ typedef struct {
 	refdef_t	refdef;
 	vec3_t		refdefViewAngles;		// will be converted to refdef.viewaxis
 
+	// PJB: TODO: this would be cool...
 #ifdef _XBOX
 	qboolean	widescreen;
 #endif

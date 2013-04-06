@@ -1,0 +1,1308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7c4392e5-c30b-401a-b078-46910b3be64f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Source Files\0_compiled_first">
+      <UniqueIdentifier>{f398af7b-4930-4d04-8b0f-2e72eb108e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EAX">
+      <UniqueIdentifier>{a93d50a8-931b-4560-b619-a2485237ba78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenAL">
+      <UniqueIdentifier>{b73d7ab3-cf51-428c-8601-ab62f070b298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\smartheap">
+      <UniqueIdentifier>{83d8084d-58b4-4723-b148-a9f32a0793b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b7404cc9-5680-426e-9839-52c01ad5c830}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2e44d8c6-38e9-4cc3-9c8e-1de9fa8d9365}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MP3 Source">
+      <UniqueIdentifier>{a23d847a-f885-4e17-8555-2aa0c4f8e5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MP3 Source\MP3 Headers">
+      <UniqueIdentifier>{e5bfdab5-13c3-4c23-9a24-4c2a1699a208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForceFeedback Source">
+      <UniqueIdentifier>{10d7c107-2f6d-4eaa-aa46-4c2a7d0296ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForceFeedback Source\ForceFeedback Headers">
+      <UniqueIdentifier>{d78455f5-5754-4b7b-978d-43bfcbfac582}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForceFeedback Source\ForceFeedback Binaries">
+      <UniqueIdentifier>{adb28d86-c6c4-40a2-a693-a2b2e0584afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer Source">
+      <UniqueIdentifier>{79dbc860-e225-4f37-a79e-33857ce7e56d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer Source\Renderer Headers">
+      <UniqueIdentifier>{5149f053-eed2-4856-90b0-377e10cf4e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Source">
+      <UniqueIdentifier>{8c4308f1-cc0a-423c-becf-72e1a48fa5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI Source\UI Headers">
+      <UniqueIdentifier>{52ae2f23-a97f-4209-9af2-ecd3ea82018f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="JPEG">
+      <UniqueIdentifier>{0afdbab6-2b5c-4163-b79a-9f2a5374f20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FF %28Immersion%29">
+      <UniqueIdentifier>{f8ad2678-a8bc-43a8-b093-d732a79f3f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FF %28Immersion%29\IFC">
+      <UniqueIdentifier>{1188a17b-29f0-47f2-9517-01b82a282dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FF %28Immersion%29\FF Binaries">
+      <UniqueIdentifier>{6c317d46-a27a-44eb-9a04-bfc150d2a06e}</UniqueIdentifier>
+      <Extensions>*.dll</Extensions>
+    </Filter>
+    <Filter Include="RMG">
+      <UniqueIdentifier>{683c2212-f6fb-4d36-a528-774b8e980e1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PNG">
+      <UniqueIdentifier>{a436e12f-1777-4677-8e10-31b60085117b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zlib32">
+      <UniqueIdentifier>{e556cac0-a95a-419a-97aa-efe7481ad7cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ghoul2">
+      <UniqueIdentifier>{e2fa7133-059b-4220-b630-0cecbbcb4d46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="client\cl_cgame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_cin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_keys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_mp3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_parse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_scrn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\cl_ui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_load.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_patch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_polylib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_randomterrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_terrainmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cm_trace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\cvar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\exe_headers.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\files_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\files_pc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\genericparser2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\md4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\msg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\net_chan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\q_math.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\q_shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_ambient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_dma.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_mix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\snd_music.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\stringed_ingame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\stringed_interface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_ccmds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_init.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_savegame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_snapshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server\sv_world.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\unzip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="client\vmachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_shared.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_snd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_syscon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_video.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_wndproc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="qcommon\z_memman_pc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="0_compiled_first\0_SH_Leak.cpp">
+      <Filter>Source Files\0_compiled_first</Filter>
+    </ClCompile>
+    <ClCompile Include="smartheap\SMRTHEAP.C">
+      <Filter>Source Files\smartheap</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\cdct.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\csbt.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\csbtL3.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\csbtb.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\cup.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\cupL1.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\cupini.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\cupl3.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\cwin.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\cwinb.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\cwinm.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\hwin.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\l3dq.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\l3init.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\mdct.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\mhead.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\msis.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\towave.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\uph.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\upsf.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="mp3code\wavep.c">
+      <Filter>MP3 Source</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\FeelIt\fffx.cpp">
+      <Filter>ForceFeedback Source</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\FeelIt\fffx_feel.cpp">
+      <Filter>ForceFeedback Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\MatComp.c">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_WorldEffects.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_arioche.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_backend.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_bsp.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_cmds.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_curve.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_draw.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_font.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_ghoul2.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_image.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_init.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_jpeg_interface.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_light.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_main.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_marks.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_mesh.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_model.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_noise.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_quicksprite.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_scene.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_shade.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_shade_calc.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_shader.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_shadows.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_sky.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_stl.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_surface.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_surfacesprites.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_terrain.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\tr_world.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_gamma.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_glimp.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="win32\win_qgl.cpp">
+      <Filter>Renderer Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_atoms.cpp">
+      <Filter>UI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_connect.cpp">
+      <Filter>UI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_main.cpp">
+      <Filter>UI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_saber.cpp">
+      <Filter>UI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_shared.cpp">
+      <Filter>UI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\ui_syscalls.cpp">
+      <Filter>UI Source</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcapimin.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jccoefct.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jccolor.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcdctmgr.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jchuff.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcinit.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcmainct.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcmarker.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcmaster.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcomapi.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcparam.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcphuff.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcprepct.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jcsample.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jctrans.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdapimin.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdapistd.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdatadst.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdatasrc.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdcoefct.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdcolor.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jddctmgr.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdhuff.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdinput.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdmainct.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdmarker.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdmaster.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdpostct.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdsample.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jdtrans.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jerror.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jfdctflt.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jidctflt.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jmemmgr.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jmemnobs.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="jpeg-6\jutils.cpp">
+      <Filter>JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\cl_ff.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_ChannelSet.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_ConfigParser.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_HandleTable.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_MultiCompound.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_MultiEffect.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_MultiSet.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_ffset.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_snd.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_system.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="ff\ff_utils.cpp">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Area.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Instance.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_InstanceFile.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Instance_BSP.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Instance_Group.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Instance_Random.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Instance_Void.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Manager.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Mission.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Objective.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Path.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="RMG\RM_Terrain.cpp">
+      <Filter>RMG</Filter>
+    </ClCompile>
+    <ClCompile Include="png\png.cpp">
+      <Filter>PNG</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib32\deflate.cpp">
+      <Filter>zlib32</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib32\inflate.cpp">
+      <Filter>zlib32</Filter>
+    </ClCompile>
+    <ClCompile Include="zlib32\zipcommon.cpp">
+      <Filter>zlib32</Filter>
+    </ClCompile>
+    <ClCompile Include="ghoul2\G2_API.cpp">
+      <Filter>Ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="ghoul2\G2_bolts.cpp">
+      <Filter>Ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="ghoul2\G2_bones.cpp">
+      <Filter>Ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="ghoul2\G2_misc.cpp">
+      <Filter>Ghoul2</Filter>
+    </ClCompile>
+    <ClCompile Include="ghoul2\G2_surfaces.cpp">
+      <Filter>Ghoul2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client\eax\EaxMan.h">
+      <Filter>Source Files\EAX</Filter>
+    </ClInclude>
+    <ClInclude Include="client\eax\eax.h">
+      <Filter>Source Files\EAX</Filter>
+    </ClInclude>
+    <ClInclude Include="client\OpenAL\al.h">
+      <Filter>Source Files\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="client\OpenAL\alc.h">
+      <Filter>Source Files\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="client\OpenAL\alctypes.h">
+      <Filter>Source Files\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="client\OpenAL\altypes.h">
+      <Filter>Source Files\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="client\OpenAL\alu.h">
+      <Filter>Source Files\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="client\OpenAL\alut.h">
+      <Filter>Source Files\OpenAL</Filter>
+    </ClInclude>
+    <ClInclude Include="smartheap\HEAPAGNT.H">
+      <Filter>Source Files\smartheap</Filter>
+    </ClInclude>
+    <ClInclude Include="smartheap\SMRTHEAP.H">
+      <Filter>Source Files\smartheap</Filter>
+    </ClInclude>
+    <ClInclude Include="smartheap\smrtheap.hpp">
+      <Filter>Source Files\smartheap</Filter>
+    </ClInclude>
+    <ClInclude Include="game\anims.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\b_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\bg_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\bset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\bstate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cgame\cg_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\chash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\cl_mp3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\client_ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\cm_draw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\cm_landscape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\cm_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\cm_patch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\cm_polylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\cm_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\cm_randomterrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\cm_terrainmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\common_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server\exe_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\fffx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\files.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\g_functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\g_items.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\g_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\g_nav.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\g_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\g_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\genericparser2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\keys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\q_shared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\qfiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server\server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\snd_ambient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\snd_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\snd_music.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\snd_public.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\sstring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\statindex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\stringed_ingame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\stringed_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\tags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\teams.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\timing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\unzip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="client\vmachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game\weapons.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\win_local.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\AutoVersion.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\L3.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\config.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\copyright.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\htable.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\jdw.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\mhead.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\mp3struct.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\port.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\small_header.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mp3code\tableawd.h">
+      <Filter>MP3 Source\MP3 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FEELitIFR.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FFC.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FFCErrors.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelBaseTypes.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelBox.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelCompoundEffect.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelCondition.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelConstant.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelDXDevice.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelDamper.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelDevice.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelEffect.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelEllipse.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelEnclosure.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelFriction.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelGrid.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelInertia.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelMouse.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelPeriodic.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelProjects.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelRamp.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelSpring.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelTexture.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\FeelitAPI.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\FeelIt\fffx_feel.h">
+      <Filter>ForceFeedback Source\ForceFeedback Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\glext.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\glw_win.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\qgl.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_WorldEffects.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_font.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_jpeg_interface.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_landscape.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_local.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_public.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_quicksprite.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_stl.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\tr_types.h">
+      <Filter>Renderer Source\Renderer Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="cgame\animtable.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game\channels.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\gameinfo.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client\keycodes.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\menudef.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\qcommon.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\stv_version.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="game\surfaceflags.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_local.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_public.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_shared.h">
+      <Filter>UI Source\UI Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jchuff.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jconfig.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jdct.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jdhuff.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jerror.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jinclude.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jmemsys.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jmorecfg.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jpegint.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jpeglib.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="jpeg-6\jversion.h">
+      <Filter>JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\cl_ff.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\common_headers.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_ChannelCompound.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_ChannelSet.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_ConfigParser.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_HandleTable.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_MultiCompound.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_MultiEffect.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_MultiSet.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_ffset.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_local.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_public.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_snd.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_system.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\ff_utils.h">
+      <Filter>FF %28Immersion%29</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\FeelitAPI.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\IFC.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\IFCErrors.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmBaseTypes.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmBox.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmCompoundEffect.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmCondition.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmConstant.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmDXDevice.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmDamper.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmDevice.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmDevices.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmEffect.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmEffectSuite.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmEllipse.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmEnclosure.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmFriction.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmGrid.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmIFR.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmInertia.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmMouse.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmPeriodic.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmProjects.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmRamp.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmSpring.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ff\IFC\ImmTexture.h">
+      <Filter>FF %28Immersion%29\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Area.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Headers.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Instance.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_InstanceFile.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Instance_BSP.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Instance_Group.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Instance_Random.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Instance_Void.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Manager.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Mission.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Objective.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Path.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="RMG\RM_Terrain.h">
+      <Filter>RMG</Filter>
+    </ClInclude>
+    <ClInclude Include="png\png.h">
+      <Filter>PNG</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib32\deflate.h">
+      <Filter>zlib32</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib32\inflate.h">
+      <Filter>zlib32</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib32\zip.h">
+      <Filter>zlib32</Filter>
+    </ClInclude>
+    <ClInclude Include="ghoul2\G2.h">
+      <Filter>Ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="qcommon\MiniHeap.h">
+      <Filter>Ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="ghoul2\ghoul2_gore.h">
+      <Filter>Ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="game\ghoul2_shared.h">
+      <Filter>Ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\matcomp.h">
+      <Filter>Ghoul2</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\mdx_format.h">
+      <Filter>Ghoul2</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SHDebug\HA312W32.DLL">
+      <Filter>Source Files\smartheap</Filter>
+    </None>
+    <None Include="SHDebug\SHW32.DLL">
+      <Filter>Source Files\smartheap</Filter>
+    </None>
+    <None Include="EaxMan.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="OpenAL32.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="win32\FeelIt\FFC10.dll">
+      <Filter>ForceFeedback Source\ForceFeedback Binaries</Filter>
+    </None>
+    <None Include="win32\FeelIt\FFC10d.dll">
+      <Filter>ForceFeedback Source\ForceFeedback Binaries</Filter>
+    </None>
+    <None Include="IFC22.dll">
+      <Filter>FF %28Immersion%29\FF Binaries</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ALut.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="OpenAL32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="ff\IFC\IFC22.lib">
+      <Filter>FF %28Immersion%29\FF Binaries</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="win32\background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="win32\clear.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="win32\starwars.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\winquake.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="smartheap\HAW32M.LIB">
+      <Filter>Source Files\smartheap</Filter>
+    </CustomBuild>
+    <CustomBuild Include="win32\FeelIt\FFC10.lib">
+      <Filter>ForceFeedback Source\ForceFeedback Binaries</Filter>
+    </CustomBuild>
+    <CustomBuild Include="win32\FeelIt\FFC10d.lib">
+      <Filter>ForceFeedback Source\ForceFeedback Binaries</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
