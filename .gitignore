@@ -16,4 +16,7 @@ jk2config.cfg
 ipch
 code/ipch
 *.bsc
-code/base
+*.pk3
+jaconfig.cfg
+jampconfig.cfg
+
