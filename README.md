@@ -9,7 +9,13 @@ Copy your "base" folder into the "code" folder, merging the files, and build Jed
 
 For a good debugging experience, I recommend hitting Alt+Enter as soon as the game hits the main menu.
 
-Jedi Outcast also fixed up here: https://github.com/PJayB/jk2src
+Jedi Knight II: Jedi Outcast
+https://github.com/PJayB/jk2src
+https://sourceforge.net/u/pjbdev/jedioutcast/
+
+Jedi Knight III: Jedi Academy
+https://github.com/PJayB/jk3src
+https://sourceforge.net/u/pjbdev/jediacademy/
 
 Feel free to email me at jedi3@gibbering.net
 
