@@ -3,10 +3,10 @@
 
 #include "tr_types.h"
 
-#ifdef _XBOX
+//#ifdef _XBOX
 // Get font functions with default arguments that we need below
 #include "tr_font.h"
-#endif
+//#endif
 
 #define	REF_API_VERSION		9
 
@@ -113,7 +113,7 @@ typedef struct {
 	void	(*WorldEffectCommand)(const char *command);
 
 	int		(*RegisterFont)(const char *name);
-#ifdef _XBOX	// No default arguments through function pointers.
+//#ifdef _XBOX	// No default arguments through function pointers.
 	int		Font_HeightPixels(const int index, const float scale = 1.0f)
 	{
 		return RE_Font_HeightPixels(index, scale);
@@ -126,11 +126,7 @@ typedef struct {
 	{
 		return RE_Font_DrawString(x, y, s, rgba, iFontHandle, iMaxPixelWidth, scale);
 	}
-#else
-	int		(*Font_HeightPixels)(const int index, const float scale = 1.0f);
-	int		(*Font_StrLenPixels)(const char *s, const int index, const float scale = 1.0f);
-	void	(*Font_DrawString)(int x, int y, const char *s, const float *rgba, const int iFontHandle, int iMaxPixelWidth, const float scale = 1.0f);
-#endif
+//#endif
 	int		(*Font_StrLenChars) (const char *s);
 	qboolean (*Language_IsAsian) (void);
 	qboolean (*Language_UsesSpaces) (void);

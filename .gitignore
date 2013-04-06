@@ -1,0 +1,17 @@
+*.opensdf
+*.sdf
+*.pk3
+*.dll
+*.exe
+*.pdb
+*.ilk
+Debug
+Release
+FinalRelease
+SHDebug
+Template
+saves
+jk2config.cfg
+*.suo
+ipch
+code/ipch

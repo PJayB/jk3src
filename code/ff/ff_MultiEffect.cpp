@@ -12,9 +12,10 @@ qboolean MultiEffect::GetStartDelay( DWORD &StartDelay )
 	StartDelay = MAXDWORD;
 	qboolean result = qtrue;
 
-	int i,max;
+	int max;
+
 	for
-	(	i = 0, max = GetNumberOfContainedEffects()
+	(	int i = 0, max = GetNumberOfContainedEffects()
 	;	i < max
 	;	i++
 	){
@@ -48,9 +49,10 @@ qboolean MultiEffect::GetDelayEnd( DWORD &DelayEnd )
 	DelayEnd = MAXDWORD;
 	qboolean result = qtrue;
 
-	int i,max;
+	int max;
+
 	for
-	(	i = 0, max = GetNumberOfContainedEffects()
+	(	int i = 0, max = GetNumberOfContainedEffects()
 	;	i < max
 	;	i++
 	){
@@ -85,11 +87,12 @@ qboolean MultiEffect::ChangeDuration( DWORD Duration )
 	DWORD CurrentDuration;
 	qboolean result = GetDuration( CurrentDuration );
 
+	int i, max;
+
 	if ( result )
 	{
 		DWORD RelativeDuration = Duration - CurrentDuration;
 
-		int i,max;
 		for
 		(	i = 0, max = GetNumberOfContainedEffects()
 		;	i < max
@@ -128,11 +131,12 @@ qboolean MultiEffect::ChangeGain( DWORD Gain )
 	DWORD CurrentGain;
 	qboolean result = GetGain( CurrentGain );
 
+	int i, max;
+
 	if ( result )
 	{
 		DWORD RelativeGain = Gain - CurrentGain;
 
-		int i,max;
 		for
 		(	i = 0, max = GetNumberOfContainedEffects()
 		;	i < max
@@ -164,9 +168,10 @@ qboolean MultiEffect::GetStatus( DWORD &Status )
 	Status = 0;
 	qboolean result = qtrue;
 
-	int i,max;
+	int max;
+
 	for
-	(	i = 0, max = GetNumberOfContainedEffects()
+	(	int i = 0, max = GetNumberOfContainedEffects()
 	;	i < max
 	;	i++
 	){
@@ -194,11 +199,12 @@ qboolean MultiEffect::ChangeStartDelay( DWORD StartDelay )
 	DWORD CurrentStartDelay;
 	qboolean result = GetStartDelay( CurrentStartDelay );
 
+	int i, max;
+
 	if ( result )
 	{
 		DWORD RelativeStartDelay = StartDelay - CurrentStartDelay;
 		
-		int i,max;
 		for
 		(	i = 0, max = GetNumberOfContainedEffects()
 		;	i < max
@@ -223,9 +229,10 @@ qboolean MultiEffect::GetDuration( DWORD &Duration )
 	Duration = 0;
 	qboolean result = qtrue;
 
-	int i,max;
+	int max;
+
 	for
-	(	i = 0, max = GetNumberOfContainedEffects()
+	(	int i = 0, max = GetNumberOfContainedEffects()
 	;	i < max
 	;	i++
 	){
@@ -253,9 +260,10 @@ qboolean MultiEffect::GetGain( DWORD &Gain )
 	Gain = 0;
 	qboolean result = qtrue;
 
-	int i,max;
+	int max;
+
 	for
-	(	i = 0, max = GetNumberOfContainedEffects()
+	(	int i = 0, max = GetNumberOfContainedEffects()
 	;	i < max
 	;	i++
 	){
