@@ -21,3 +21,4 @@ jaconfig.cfg
 jampconfig.cfg
 
 *.user
+servercache.dat
