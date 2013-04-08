@@ -270,6 +270,24 @@ Sys_DefaultBasePath
 ==============
 */
 char *Sys_DefaultBasePath( void ) {
+
+// PJB: pick from module directory instead of working
+#ifdef WIN32
+    static char fn[ MAX_PATH ];
+    if ( GetModuleFileNameA( NULL, fn, sizeof(fn) ) )
+    {
+        // Find the last \\ and choppy-chop
+        int len = strlen( fn );
+        while ( len > 0 && fn[len] != '\\' )
+            len--;
+        if ( len > 0 )
+        {
+            fn[len] = 0;
+            return fn;
+        }
+    }
+#endif
+
 	return Sys_Cwd();
 }
 

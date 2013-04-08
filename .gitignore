@@ -20,3 +20,4 @@ code/ipch
 jaconfig.cfg
 jampconfig.cfg
 
+*.user

@@ -1473,6 +1473,7 @@ int Q_irand(int value1, int value2)
 	return irand(value1, value2);
 }
 
+#ifndef powf
 float powf ( float x, int y )
 {
 	float r = x;
@@ -1480,6 +1481,7 @@ float powf ( float x, int y )
 		r = r * r;
 	return r;
 }
+#endif
 
 #ifdef Q3_VM 
 //rwwRMG - needed for HandleEntityAdjustment

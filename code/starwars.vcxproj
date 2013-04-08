@@ -71,26 +71,26 @@
     <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>$(SolutionDir)\</OutDir>
-    <IntDir>$(OutDir)$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\..\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>jasp</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SHDebug|Win32'">
-    <OutDir>$(SolutionDir)\</OutDir>
-    <IntDir>$(OutDir)$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\..\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <TargetName>jasp</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='FinalBuild|Win32'">
-    <OutDir>$(SolutionDir)\</OutDir>
-    <IntDir>$(OutDir)$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\..\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>jasp</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>$(SolutionDir)\</OutDir>
-    <IntDir>$(OutDir)$(Configuration)\$(ProjectName)\</IntDir>
+    <OutDir>$(SolutionDir)\..\</OutDir>
+    <IntDir>$(SolutionDir)$(Configuration)\$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <TargetName>jasp</TargetName>
   </PropertyGroup>

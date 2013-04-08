@@ -61,7 +61,10 @@
 #define false qfalse
 #define true qtrue
 
+#ifndef sqrtf
 #define sqrtf sqrt
+#endif
+
 #define Q_flrand flrand
 
 #define MOD_EXPLOSIVE MOD_SUICIDE
